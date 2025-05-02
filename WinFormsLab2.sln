@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLab2", "WinFormsLab2\WinFormsLab2.csproj", "{9EEFA9B6-DD3B-424E-B1CA-D007986E0258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLib", "UserLib\UserLib.csproj", "{7184C23A-81F2-45B0-8DE4-E9662F021F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EEFA9B6-DD3B-424E-B1CA-D007986E0258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEFA9B6-DD3B-424E-B1CA-D007986E0258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEFA9B6-DD3B-424E-B1CA-D007986E0258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEFA9B6-DD3B-424E-B1CA-D007986E0258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
