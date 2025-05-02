@@ -32,42 +32,43 @@ partial class LoginForm
     private void InitializeComponent()
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-        button1 = new System.Windows.Forms.Button();
-        button2 = new System.Windows.Forms.Button();
+        Enter = new System.Windows.Forms.Button();
+        cancel = new System.Windows.Forms.Button();
         textBox1 = new System.Windows.Forms.TextBox();
         textBox2 = new System.Windows.Forms.TextBox();
         textBox3 = new System.Windows.Forms.TextBox();
         label1 = new System.Windows.Forms.Label();
         label2 = new System.Windows.Forms.Label();
         pictureBox1 = new System.Windows.Forms.PictureBox();
-        textBox4 = new System.Windows.Forms.TextBox();
-        textBox5 = new System.Windows.Forms.TextBox();
+        Namebox = new System.Windows.Forms.TextBox();
+        Password = new System.Windows.Forms.TextBox();
         ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
         SuspendLayout();
         // 
-        // button1
+        // Enter
         // 
-        button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-        button1.AutoSize = true;
-        button1.ForeColor = System.Drawing.SystemColors.Desktop;
-        button1.Location = new System.Drawing.Point(41, 289);
-        button1.Name = "button1";
-        button1.Size = new System.Drawing.Size(227, 30);
-        button1.TabIndex = 0;
-        button1.Text = "Вход";
-        button1.UseVisualStyleBackColor = true;
+        Enter.Anchor = System.Windows.Forms.AnchorStyles.None;
+        Enter.AutoSize = true;
+        Enter.ForeColor = System.Drawing.SystemColors.Desktop;
+        Enter.Location = new System.Drawing.Point(41, 289);
+        Enter.Name = "Enter";
+        Enter.Size = new System.Drawing.Size(230, 30);
+        Enter.TabIndex = 0;
+        Enter.Text = "Вход";
+        Enter.UseVisualStyleBackColor = true;
+        Enter.Click += Enter_Click;
         // 
-        // button2
+        // cancel
         // 
-        button2.AutoSize = true;
-        button2.ForeColor = System.Drawing.SystemColors.Desktop;
-        button2.Location = new System.Drawing.Point(481, 289);
-        button2.Name = "button2";
-        button2.Size = new System.Drawing.Size(263, 30);
-        button2.TabIndex = 1;
-        button2.Text = "Отмена";
-        button2.UseVisualStyleBackColor = true;
-        button2.Click += button2_Click;
+        cancel.AutoSize = true;
+        cancel.ForeColor = System.Drawing.SystemColors.Desktop;
+        cancel.Location = new System.Drawing.Point(482, 289);
+        cancel.Name = "cancel";
+        cancel.Size = new System.Drawing.Size(263, 30);
+        cancel.TabIndex = 1;
+        cancel.Text = "Отмена";
+        cancel.UseVisualStyleBackColor = true;
+        cancel.Click += cancel_Click;
         // 
         // textBox1
         // 
@@ -136,35 +137,35 @@ partial class LoginForm
         pictureBox1.TabIndex = 7;
         pictureBox1.TabStop = false;
         // 
-        // textBox4
+        // Namebox
         // 
-        textBox4.Location = new System.Drawing.Point(464, 134);
-        textBox4.Name = "textBox4";
-        textBox4.Size = new System.Drawing.Size(280, 27);
-        textBox4.TabIndex = 8;
+        Namebox.Location = new System.Drawing.Point(291, 134);
+        Namebox.Name = "Namebox";
+        Namebox.Size = new System.Drawing.Size(453, 27);
+        Namebox.TabIndex = 8;
         // 
-        // textBox5
+        // Password
         // 
-        textBox5.Location = new System.Drawing.Point(464, 204);
-        textBox5.Name = "textBox5";
-        textBox5.Size = new System.Drawing.Size(281, 27);
-        textBox5.TabIndex = 9;
+        Password.Location = new System.Drawing.Point(291, 204);
+        Password.Name = "Password";
+        Password.Size = new System.Drawing.Size(454, 27);
+        Password.TabIndex = 9;
         // 
         // LoginForm
         // 
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
         BackColor = System.Drawing.SystemColors.GradientActiveCaption;
         ClientSize = new System.Drawing.Size(782, 353);
-        Controls.Add(textBox5);
-        Controls.Add(textBox4);
+        Controls.Add(Password);
+        Controls.Add(Namebox);
         Controls.Add(pictureBox1);
         Controls.Add(label2);
         Controls.Add(label1);
         Controls.Add(textBox3);
         Controls.Add(textBox2);
         Controls.Add(textBox1);
-        Controls.Add(button2);
-        Controls.Add(button1);
+        Controls.Add(cancel);
+        Controls.Add(Enter);
         ForeColor = System.Drawing.SystemColors.ControlDark;
         MaximumSize = new System.Drawing.Size(800, 400);
         MinimumSize = new System.Drawing.Size(800, 400);
@@ -175,9 +176,9 @@ partial class LoginForm
         PerformLayout();
     }
 
-    private System.Windows.Forms.TextBox textBox5;
+    private System.Windows.Forms.TextBox Password;
 
-    private System.Windows.Forms.TextBox textBox4;
+    private System.Windows.Forms.TextBox Namebox;
 
     private System.Windows.Forms.PictureBox pictureBox1;
 
@@ -191,9 +192,9 @@ partial class LoginForm
 
     private System.Windows.Forms.TextBox textBox1;
 
-    private System.Windows.Forms.Button button2;
+    private System.Windows.Forms.Button cancel;
 
-    private System.Windows.Forms.Button button1;
+    private System.Windows.Forms.Button Enter;
 
     #endregion
 }
