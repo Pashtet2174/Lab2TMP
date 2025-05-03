@@ -1,4 +1,4 @@
-namespace WinFormsLab2;
+namespace UserLib;
 
 public class User : IUser
 {

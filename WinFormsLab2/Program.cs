@@ -1,4 +1,5 @@
 namespace WinFormsLab2;
+using UserLib;
 
 static class Program
 {

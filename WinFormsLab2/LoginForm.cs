@@ -1,4 +1,5 @@
 namespace WinFormsLab2;
+using UserLib;
 
 public partial class LoginForm : Form
 {
@@ -23,7 +24,7 @@ public partial class LoginForm : Form
 
         if (user != null)
         {
-            Form1 mainForm = new Form1();
+            Form1 mainForm = new Form1(user);
             mainForm.Show();
             
             this.Hide();

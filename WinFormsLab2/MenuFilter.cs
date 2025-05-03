@@ -1,8 +1,8 @@
 namespace WinFormsLab2;
-
+using UserLib;
 public static class MenuFilter
 {
-    public static List<MenuItem> FilterMenuForUser(List<MenuItem> menu, User user)
+    public static List<MenuItem> FilterMenuForUser(List<MenuItem> menu, IUser user)
     {
         List<MenuItem> Filter(List<MenuItem> items)
         {

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLab2", "WinFormsLab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLib", "UserLib\UserLib.csproj", "{7184C23A-81F2-45B0-8DE4-E9662F021F97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuLib", "MenuLib\MenuLib.csproj", "{7B9B1974-7B86-4D3C-BF3A-EF69E5D20351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7184C23A-81F2-45B0-8DE4-E9662F021F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9B1974-7B86-4D3C-BF3A-EF69E5D20351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9B1974-7B86-4D3C-BF3A-EF69E5D20351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9B1974-7B86-4D3C-BF3A-EF69E5D20351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9B1974-7B86-4D3C-BF3A-EF69E5D20351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
