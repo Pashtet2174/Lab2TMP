@@ -1,4 +1,4 @@
-namespace WinFormsLab2;
+namespace MenuLib;
 
 public class MenuItem
 {

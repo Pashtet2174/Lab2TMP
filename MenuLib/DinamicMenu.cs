@@ -1,11 +1,13 @@
 
 
-namespace WinFormsLab2;
+namespace MenuLib;
 
 public class DynamicMenu
 {
     public List<MenuItem> RootItems { get; set; } = new List<MenuItem>();
-
+    public DynamicMenu() : this("menu.txt") // Делегируем вызов основному конструктору
+    {
+    }
     public DynamicMenu(string fileName = "menu.txt")
     {
         if (!File.Exists(fileName))

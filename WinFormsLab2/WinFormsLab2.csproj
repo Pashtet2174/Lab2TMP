@@ -15,6 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MenuLib\MenuLib.csproj" />
       <ProjectReference Include="..\UserLib\UserLib.csproj" />
     </ItemGroup>
 
